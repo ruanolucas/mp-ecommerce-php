@@ -31,7 +31,6 @@ $payer->address = [
 ];
 
 $preference = new MercadoPago\Preference();
-$preference->collector_id = COLLECTOR_ID;
 $preference->items = [$item];
 $preference->payer = $payer;
 $preference->payment_methods = [
