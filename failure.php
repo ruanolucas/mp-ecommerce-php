@@ -100,7 +100,6 @@
                                             <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="6|Powerbeats3 Wireless Earphones - Neighborhood Collection - Brick Red|MPXP2">
                                                 <div class="as-tilegallery-element as-image-selected">
                                                     <div class=""></div>
-                                                    <img src="./assets/003.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" style="content:-webkit-image-set(url(<?php echo $_POST['img'] ?>) 2x);">
                                                 </div>
                                                 
                                             </div>
@@ -118,19 +117,11 @@
                                         <div class="as-producttile-title">
                                             <h3 class="as-producttile-name">
                                                 <p class="as-producttile-tilelink">
-                                                    <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
+                                                    <span data-ase-truncate="2">Ups! Falló su pago. Por favor, intente nuevamente.</span>
                                                 </p>
-
                                             </h3>
                                         </div>
-                                        <h3 >
-                                            <?php echo $_POST['price'] ?>
-                                        </h3>
-                                        <h3 >
-                                            <?php echo "$" . $_POST['unit'] ?>
-                                        </h3>
                                     </div>
-                                    <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
                                 </div>
                             </div>
                         </div>
