@@ -5,6 +5,8 @@ function logger($content){
     fclose($file);
 }
 
+logger('------------------------- ' . date('Y-m-d H:i:s'));
+
 if(isset($_GET) && is_array($_GET) && count($_GET) > 0){
     $content = print_r($_GET, true);
     logger($content);
