@@ -77,7 +77,7 @@
 
                                     <button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters" type="button">
                                         <h2 class=" as-filter-button-text">
-                                            Smartphones
+                                        Su pago está pendiente.
                                         </h2>
                                     </button>
 
@@ -117,7 +117,7 @@
                                         <div class="as-producttile-title">
                                             <h3 class="as-producttile-name">
                                                 <p class="as-producttile-tilelink">
-                                                    <span data-ase-truncate="2">Su pago está pendiente.</span>
+                                                    <span data-ase-truncate="2"></span>
                                                 </p>
                                             </h3>
                                         </div>

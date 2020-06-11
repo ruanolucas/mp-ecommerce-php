@@ -77,7 +77,7 @@
 
                                     <button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters" type="button">
                                         <h2 class=" as-filter-button-text">
-                                            Smartphones
+                                        Ups! Falló su pago. Por favor, intente nuevamente.
                                         </h2>
                                     </button>
 
@@ -117,7 +117,7 @@
                                         <div class="as-producttile-title">
                                             <h3 class="as-producttile-name">
                                                 <p class="as-producttile-tilelink">
-                                                    <span data-ase-truncate="2">Ups! Falló su pago. Por favor, intente nuevamente.</span>
+                                                    <span data-ase-truncate="2"></span>
                                                 </p>
                                             </h3>
                                         </div>

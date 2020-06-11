@@ -77,7 +77,7 @@
 
                                     <button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters" type="button">
                                         <h2 class=" as-filter-button-text">
-                                            Smartphones
+                                        Gracias por su compra.
                                         </h2>
                                     </button>
 
@@ -117,16 +117,19 @@
                                         <div class="as-producttile-title">
                                             <h3 class="as-producttile-name">
                                                 <p class="as-producttile-tilelink">
-                                                    <span data-ase-truncate="2">Gracias por su compra.</span>
+                                                    <span data-ase-truncate="2"></span>
                                                 </p>
                                             </h3>
-                                            <p>Payment method: <?php echo $_GET['payment_type']; ?>
-                                            <p>Merchant order ID: <?php echo $_GET['merchant_order_id']; ?></p>
-                                            <p>Collection id: <?php echo $_GET['collection_id']; ?></p>
-                                            <p>Collection status: <?php echo $_GET['collection_status']; ?></p>
                                         </div>
                                     </div>
                                 </div>
+                                <p>Payment method: <?php echo $_GET['payment_type']; ?></p>
+                                                <br>
+                                                <p>Merchant order ID: <?php echo $_GET['merchant_order_id']; ?></p>
+                                                <br>
+                                                <p>Collection id: <?php echo $_GET['collection_id']; ?></p>
+                                                <br>
+                                                <p>Collection status: <?php echo $_GET['collection_status']; ?></p>
                             </div>
                         </div>
                     </div>

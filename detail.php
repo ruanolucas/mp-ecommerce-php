@@ -3,9 +3,8 @@ require __DIR__  . '/vendor/autoload.php';
 require_once('config.php');
 
 MercadoPago\SDK::initialize(); 
-$config = MercadoPago\SDK::config();
-$config->set('ACCESS_TOKEN', ACCESS_TOKEN);
-// MercadoPago\SDK::setAccessToken(ACCESS_TOKEN);
+MercadoPago\SDK::setAccessToken(ACCESS_TOKEN);
+MercadoPago\SDK::setPublicKey(PUBLIC_KEY);
 MercadoPago\SDK::setIntegratorId(INTEGRATOR_ID);
 
 $item = new MercadoPago\Item();
@@ -45,7 +44,7 @@ $preference->back_urls = [
     'success' => SITE_URL . '/success.php'
 ];
 $preference->auto_return = 'approved';
-$preference->external_reference = time(); // 'lr@creacttive.com';
+$preference->external_reference = INTEGRATOR_EMAIL; // time();
 
 // @debug
 // echo '<pre>' . print_r($preference->toArray(), true) . '</pre>';exit;
@@ -185,7 +184,7 @@ $preference->save();
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
-                                    <form action="<?php echo $preference->init_point;?>" method="GET">
+                                    <form action="<?php echo $preference->init_point;?>" method="GET" target="_blank">
                                         <button type="submit" class="mercadopago-button" formmethod="post">Pagar la compra</button>
                                     </form>
                                 </div>
