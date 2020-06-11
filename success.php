@@ -124,12 +124,14 @@
                                     </div>
                                 </div>
                                 <p>Payment method: <?php echo $_GET['payment_type']; ?></p>
-                                                <br>
-                                                <p>Merchant order ID: <?php echo $_GET['merchant_order_id']; ?></p>
-                                                <br>
-                                                <p>Collection id: <?php echo $_GET['collection_id']; ?></p>
-                                                <br>
-                                                <p>Collection status: <?php echo $_GET['collection_status']; ?></p>
+                                <br>
+                                <p>External reference: <?php echo $_GET['external_reference']; ?></p>
+                                <br>
+                                <p>Merchant order ID: <?php echo $_GET['merchant_order_id']; ?></p>
+                                <br>
+                                <p>Collection id: <?php echo $_GET['collection_id']; ?></p>
+                                <br>
+                                <p>Collection status: <?php echo $_GET['collection_status']; ?></p>
                             </div>
                         </div>
                     </div>
