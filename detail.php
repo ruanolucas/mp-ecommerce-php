@@ -184,7 +184,7 @@ $preference->save();
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
-                                    <form action="<?php echo $preference->init_point;?>" method="GET" target="_blank">
+                                    <form action="<?php echo $preference->init_point;?>" method="GET">
                                         <button type="submit" class="mercadopago-button" formmethod="post">Pagar la compra</button>
                                     </form>
                                 </div>
